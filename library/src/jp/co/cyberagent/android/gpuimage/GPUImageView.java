@@ -162,6 +162,10 @@ public class GPUImageView extends FrameLayout {
         mGPUImage.setImage(bitmap);
     }
 
+    public void deleteImage() {
+        mGPUImage.deleteImage(); 
+    }
+    
     /**
      * Sets the image on which the filter should be applied from a Uri.
      *
